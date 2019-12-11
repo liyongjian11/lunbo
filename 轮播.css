@@ -1,0 +1,91 @@
+/*
+* @Author: 77391
+* @Date:   2019-12-08 15:14:59
+* @Last Modified by:   77391
+* @Last Modified time: 2019-12-10 20:44:05
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+.box{
+	width: 1200px;
+	height: 380px;
+	margin: 10px auto;
+	position: relative;
+	overflow: hidden;
+}
+.tishi{
+	height: 15px;
+	padding-left: 250px;
+	position: relative;
+	background-color: #ccc;
+}
+.tishi1{
+	height: 15px;
+	padding-left: 200px;
+	display: inline-block;
+	color: red;
+	font-size: 10px;
+	float: right;
+	position: relative;
+	right: -100px;
+}
+.tishi2{
+	height: 15px;
+	display: inline-block;
+	overflow: hidden;
+	width: 1000px;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color:    ;
+	top: 175px;
+	line-height: 50px;
+	background-color: rgb(255, 0, 0);
+	font-size: 30px;
+	position: absolute;
+	/* display: none; */
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;
+	color: white;
+}
